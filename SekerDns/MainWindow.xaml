@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="SetDns.MainWindow" Name="myWindow" Title="Şeker Dns" Height="314.375" Width="125.656" ResizeMode="NoResize" WindowStyle="ToolWindow" Icon="Logo.ico" WindowStartupLocation="CenterScreen" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation">
+  <Grid x:Name="Grd">
+    <Button Name="Otomatik" Content="Otomatik" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+    <Button Name="OpenDns" Content="OpenDns" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+    <Button Name="Yandex" Content="Yandex" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+    <Button Name="DnsAdventage" Content="DnsAdventage" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+        <Button Name="Google" Content="Google" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+        <Button Name="Norton" Content="Norton" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+        <Button Name="CloudFlare" Content="CloudFlare" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+        <TextBlock Name="lbl" Text="Current: " Margin="10,199,10,10" TextWrapping="WrapWithOverflow"></TextBlock>
+  </Grid>
+</Window>
