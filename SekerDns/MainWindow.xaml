@@ -4,7 +4,8 @@
     <Button Name="Otomatik" Content="Otomatik" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
     <Button Name="OpenDns" Content="OpenDns" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
     <Button Name="Yandex" Content="Yandex" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
-    <Button Name="DnsAdventage" Content="DnsAdventage" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+        <Button Name="YandexSafe" Content="Yandex Safe" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
+        
         <Button Name="Google" Content="Google" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
         <Button Name="Norton" Content="Norton" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />
         <Button Name="CloudFlare" Content="CloudFlare" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.548,-0.032" Click="Button_Click" PreviewMouseDown="Button_PreviewMouseDown" />

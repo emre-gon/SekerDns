@@ -27,9 +27,10 @@ namespace SetDns
 			{
 				{ "Otomatik", null },
 				{ "OpenDns", new string[] { "208.67.222.222", "208.67.220.220" } },
-				{ "DnsAdventage", new string[] { "156.154.70.1", "156.154.71.1" } },
 				{ "Google", new string[] { "8.8.8.8", "8.8.4.4" } },
 				{ "Yandex", new string[] { "77.88.8.8", "77.88.8.1" } },
+				{ "YandexSafe", new string[] { "77.88.8.88", "77.88.8.2" } },
+				//{ "YandexFamily", new string[] { "77.88.8.7", "77.88.8.3" } },
 				{ "Norton", new string[] { "199.85.126.10", "199.85.127.10" } },
 				{ "CloudFlare", new string[] { "1.1.1.1", "1.0.0.1" } }
 			};
@@ -46,7 +47,7 @@ namespace SetDns
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
 			var button = ((Button)sender);
-			string serverName = (string)button.Content;
+			string serverName = (string)button.Name;
 			try
 			{
 				MainWindow.SetNameservers(MainWindow.DnsServers[serverName]);
