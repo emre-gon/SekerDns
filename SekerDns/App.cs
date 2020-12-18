@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 
-namespace SetDns
+namespace SekerDns
 {
 	public class App : Application
 	{
@@ -40,7 +40,7 @@ namespace SetDns
 					return false;
 				}
 				return process.ProcessName.Equals(currentProcess.ProcessName, StringComparison.Ordinal);
-			}).FirstOrDefault<Process>();
+			}).FirstOrDefault();
 			if (process1 != null)
 			{
 				Application.Current.Shutdown();

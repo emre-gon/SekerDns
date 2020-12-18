@@ -15,7 +15,7 @@ using System.Net.NetworkInformation;
 using System.Net;
 using Microsoft.Win32;
 
-namespace SetDns
+namespace SekerDns
 {
 	public partial class MainWindow : Window
 	{
